@@ -11,7 +11,15 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      extend: {
+        fontfamily: {
+          sans: ["Poppins", "sans-serif"],
+        },
+        gridTemplateColumns: {
+          "70/30": "70% 30%",
+        },
+      },
     },
   },
   plugins: [],
-};
+}
